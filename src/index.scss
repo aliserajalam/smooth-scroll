@@ -4,6 +4,7 @@ body {
 }
 
 body {
+  // Disables Apple's stretch on page limit feature
   overscroll-behavior-y: none;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

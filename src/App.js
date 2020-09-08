@@ -26,7 +26,7 @@ function App() {
     }px`;
   }, [size.height]);
 
-  // Hook that limits the execution limit of scrolling()
+  // Run scrolling once page has loaded
   useEffect(() => {
     requestAnimationFrame(() => scrolling());
   }, []);
